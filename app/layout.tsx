@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${urbanist.className} ${openSans.variable} select-none antialiased`}>{children}</body>
+      <body className={`${urbanist.className} ${openSans.variable} antialiased`}>{children}</body>
     </html>
   );
 }

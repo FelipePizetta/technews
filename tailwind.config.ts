@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': '--font-open-sans',
-        'variable': '--font-urbanist',
+        'sans': 'var(--font-open-sans)',
+        'variable': 'var(--font-urbanist)',
       },
       borderColor: {
         "mercury": "rgb(228, 228, 231)",
