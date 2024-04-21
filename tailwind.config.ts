@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        "malachite": "rgb(0, 195, 43)",
+      },
       fontFamily: {
         'sans': 'var(--font-open-sans)',
         'variable': 'var(--font-urbanist)',
@@ -23,7 +26,8 @@ const config: Config = {
         "star-dust": "rgb(153, 153, 153)",
       },
       boxShadow: {
-        "form": "0 35px 60px -15px rgba(0, 0, 0, 0.1)",
+        "form": "0 5px 20px 10px rgba(220, 220, 220, 0.2)",
+        "sucess": "0 5px 35px 0.5px rgba(34, 187, 85, 0.35)",
       },
     },
   },
