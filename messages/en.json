@@ -1,0 +1,12 @@
+{
+    "Heros": {
+        "description": "Get the latest news, trends, and expert advice delivered straight to your inbox"
+    },
+    "Form": {
+        "placeholder": "Your email address...",
+        "subscribe": "Subscribe"
+    },
+    "Alert": {
+        "sucess": "Your email has been successfully registered!"
+    }
+}

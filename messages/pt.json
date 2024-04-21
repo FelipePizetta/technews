@@ -1,0 +1,12 @@
+{
+    "Heros": {
+        "description": "Receba as últimas notícias, tendências e conselhos de especialistas diretamente na sua caixa de entrada"
+    },
+    "Form": {
+        "placeholder": "Seu endereço de e-mail...",
+        "subscribe": "Inscreva-se"
+    },
+    "Alert": {
+        "sucess": "Seu e-mail foi cadastrado com sucesso!"
+    }
+}

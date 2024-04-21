@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBwHmIirTEBBSsYcE00UiqQaeqWI4eVBOg",
-    authDomain: "newstech-f3066.firebaseapp.com",
-    projectId: "newstech-f3066",
-    storageBucket: "newstech-f3066.appspot.com",
-    messagingSenderId: "39910636659",
-    appId: "1:39910636659:web:d1dd857ecba53b8059fe06"
+    apiKey: process.env.NEXT_PUBLIC_API_KEY,
+    authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
